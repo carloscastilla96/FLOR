@@ -131,14 +131,64 @@ table {
 
 /* Csss code */
 
-.button {
+.button-left {
 
     padding: 10px;
     margin: 20px;
-    top: 100px;
+    left: 2vw;
+    top: 0.2vh;
     color: honeydew;
     border-radius: 5px;
     background-color: #00BC7E;
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    outline: none;
+    text-decoration: none;
+}
+
+.button-left:hover {
+    transition: ease-in 0.3s;
+    padding: 10px;
+    margin: 20px;
+    left: 2vw;
+    top: 0.2vh;
+    background-color: honeydew;
+    border-radius: 5px;
+    color: #00BC7E;
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    outline: white solid 2px;
+    text-decoration: none;
+}
+
+.button-right {
+
+    padding: 10px;
+    margin: 20px;
+    right: 2vw;
+    top: 0.2vh;
+    color: honeydew;
+    border-radius: 5px;
+    background-color: #00BC7E;
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    outline: none;
+    text-decoration: none;
+}
+
+.button-right:hover {
+    transition: ease-in 0.3s;
+    padding: 10px;
+    margin: 20px;
+    right: 2vw;
+    top: 0.2vh;
+    background-color: honeydew;
+    border-radius: 5px;
+    color: #00BC7E;
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    outline: white solid 2px;
+    text-decoration: none;
 }
 
 .button-2 {
@@ -166,10 +216,6 @@ table {
     font-family: Helvetica, sans-serif;
 }
 
-
-
-
-
 #fondo {
     height: 100vh;
     width: 100vw;
@@ -186,10 +232,39 @@ table {
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-items: center;
     flex-direction: column;
 
 
 }
+
+.contenedor-fondo {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+
+}
+
+.contenedor-prototype {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    width: 80vw;
+    height: 100vh;
+  
+    background-color: black;
+
+}
+
 
 #contenedor-botones {
     height: 60vh;
@@ -221,6 +296,6 @@ h3 {
 }
 
 #logo {
-    margin: 10px;
+    margin: 1em;
     width: 45%;
 }
