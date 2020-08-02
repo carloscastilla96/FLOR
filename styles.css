@@ -260,7 +260,6 @@ table {
     flex-direction: column;
     width: 80vw;
     height: 100vh;
-  
     background-color: black;
 
 }
@@ -268,7 +267,7 @@ table {
 
 #contenedor-botones {
     height: 60vh;
-    margin: 30px;
+    margin: 3em;
     width: 60vw;
     display: flex;
     align-items: center;
